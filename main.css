@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #212529;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(./img/wallpaper-white.jpg) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 65vw;
+    background-color: #c4c4c498;
+    border-radius: .5em;
+    padding: 2.5em;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+.lead {
+    font-weight: 200;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+hr {
+    margin: 2em 0;
+}
+
+hr ~ p {
+    margin-bottom: 2em;
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+p a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #0258b4;
+}
+
+a:visited {
+    color: var(--primary-color);
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1em;
+    padding: .8em;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0258b4;
+}
+
+.button-outline {
+    background: none;
+    color: var(--primary-color);
+    font-size: 1em;
+    padding: .78em;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    width: 7em;
+
+    cursor: pointer;
+}
+
+.button-outline:hover {
+    color: #0258b4;
+    border: 1px solid #0258b4;
+}
+
+
