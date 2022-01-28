@@ -1,5 +1,6 @@
 :root {
     --primary-color: #007BFF;
+    --primary-hover: #0258b4;
     --secondary-color: #212529;
 }
 
@@ -22,7 +23,7 @@ body {
 }
 
 main{
-    width: 65vw;
+    width: 50vw;
     background-color: #c4c4c498;
     border-radius: .5em;
     padding: 2.5em;
@@ -47,6 +48,7 @@ hr ~ p {
     margin-bottom: 2em;
     color: var(--secondary-color);
     font-weight: 400;
+    font-size: 1.3rem;
 }
 
 p a {
@@ -56,7 +58,7 @@ p a {
 
 p a:hover {
     text-decoration: underline;
-    color: #0258b4;
+    color: var(--primary-hover);
 }
 
 a:visited {
@@ -66,7 +68,7 @@ a:visited {
 .button {
     background-color: var(--primary-color);
     color: white;
-    font-size: 1em;
+    font-size: 1.3rem;
     padding: .8em;
     border: none;
     border-radius: 5px;
@@ -75,13 +77,13 @@ a:visited {
 }
 
 .button:hover {
-    background-color: #0258b4;
+    background-color: var(--primary-hover);
 }
 
 .button-outline {
     background: none;
     color: var(--primary-color);
-    font-size: 1em;
+    font-size: 1.3rem;
     padding: .78em;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
@@ -91,8 +93,8 @@ a:visited {
 }
 
 .button-outline:hover {
-    color: #0258b4;
-    border: 1px solid #0258b4;
+    color: var(--primary-hover);
+    border: 1px solid var(--primary-hover);
 }
 
 
