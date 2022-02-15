@@ -1,15 +1,3 @@
-//Animations
-//Cursor animation
-//Responsive menu
-//Seção com 3 icones com animação de 'aparecer'
-//Carrossel
-
-//Dark mode do menu
-
-//Caso tenha mais conteúdo na página, adiciona a personalização do scroll
-
-//Próximo passo - Criar o menu com o javascript
-
 const alerta = () => {
     window.alert('Alerta!')
 }

@@ -1,0 +1,12 @@
+.dm-background {
+    background: url(/img/wallpaper-black.jpg) no-repeat center !important;
+    background-size: cover !important;
+}
+
+.dm-text {
+    color: white !important;
+}
+
+.dm-box{
+    background-color: #55555598 !important;
+}
