@@ -60,6 +60,7 @@ p a {
 p a:hover {
     text-decoration: underline;
     color: var(--primary-hover);
+    transition: .2s;
 }
 
 a:visited {
@@ -79,6 +80,7 @@ a:visited {
 
 .button:hover {
     background-color: var(--primary-hover);
+    transition: .2s;
 }
 
 .button-outline {
@@ -96,6 +98,7 @@ a:visited {
 .button-outline:hover {
     color: var(--primary-hover);
     border: 1px solid var(--primary-hover);
+    transition: .2s;
 }
 
 
