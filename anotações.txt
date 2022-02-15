@@ -1,0 +1,14 @@
+ADICIONAR:
+- Animations
+- Cursor animation
+- Responsive menu
+- Seção com 3 icones com animação de 'aparecer'
+- Carrossel
+- Caso tenha mais conteúdo na página, adiciona a personalização do scroll
+
+TAREFAS:
+- Dark mode do menu
+- Alterar a cor do hover no darkmode, trocar o valor dentro do css
+
+
+*** Próximo passo - Criar o menu com o javascript

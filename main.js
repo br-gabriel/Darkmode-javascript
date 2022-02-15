@@ -1,11 +1,12 @@
-//Light and dark mode
 //Animations
 //Cursor animation
 //Responsive menu
-//Botão 1 - Dark e light mode
-//Botão 2 - Alert
 //Seção com 3 icones com animação de 'aparecer'
 //Carrossel
+
+//Dark mode do menu
+
+//Caso tenha mais conteúdo na página, adiciona a personalização do scroll
 
 //Próximo passo - Criar o menu com o javascript
 
@@ -13,15 +14,26 @@ const alerta = () => {
     window.alert('Alerta!')
 }
 
-document.querySelector(".button-outline").addEventListener('click', alerta)
+const darkMode = () => {
+    buttonText = document.querySelector('.button')
 
-/*Darkmode - Switch
-- Trocar o background
-- Cor da fonte
-- Cor do background de todo o site, inclusive no menu
-- Cor dos botões [talvez]
-- Trocar o texto do botão para Light mode
-*/
+    background = document.querySelector('body')
+    title = document.querySelector('h1')
+    text = document.querySelector('p')
+    textLink = document.querySelector('p.link')
+    box = document.querySelector('main')
+    
+    background.classList.toggle('dm-background')
+    title.classList.toggle('dm-text')
+    text.classList.toggle('dm-text')
+    textLink.classList.toggle('dm-text')
+    box.classList.toggle('dm-box')
 
-//Caso tenha mais conteúdo na página, adiciona a personalização do scroll
-//Adicionar CSS do darkmode e implementar o código JS com classToggle
+    if (buttonText.innerHTML == 'Dark mode')
+        buttonText.innerHTML = 'Light mode'
+    else if (buttonText.innerHTML == 'Light mode')
+        buttonText.innerHTML = 'Dark mode'
+}
+
+document.querySelector('.button-outline').addEventListener('click', alerta)
+document.querySelector('.button').addEventListener('click', darkMode)

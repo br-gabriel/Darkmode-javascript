@@ -1,15 +1,3 @@
-/*
-Background
-Cor da fonte
-Cor de fundo do texto
-Cor dos botões
-*/
-:root {
-    --primary-color: #007BFF;
-    --primary-hover: #00a2ff;
-    --secondary-color: #212529;
-}
-
 .dm-background {
     background: url(./img/wallpaper-black.jpg) no-repeat center !important;
     background-size: cover !important;
@@ -23,25 +11,6 @@ Cor dos botões
     background-color: #55555598 !important;
 }
 
-
-.button-outline:hover {
-    color: var(--primary-hover);
-    border: 1px solid var(--primary-hover);
-    transition: .2s;
-}
-
-.button:hover {
-    background-color: var(--primary-hover);
-    transition: .2s;
-}
-
-p a:hover {
-    text-decoration: underline;
-    color: var(--primary-hover);
-    transition: .2s;
-}
-
-a:visited {
-    color: var(--primary-color);
-    transition: .2s;
-}
+/*
+Alteração na cor do hover (trocar de --primary-hover p/ --dm-hover) [alterar o CSS]
+*/
