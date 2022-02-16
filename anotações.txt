@@ -13,3 +13,9 @@ TAREFAS:
 
 
 *** Próximo passo - Criar o menu com o javascript
+
+
+Reduzir um pouco o tamanho do 'X'
+Adicionar o efeito de animação no menu
+Adicionar o darkmode no menu
+Trocar a cor do icone de acordo com o tema definido

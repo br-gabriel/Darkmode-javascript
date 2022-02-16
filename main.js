@@ -9,13 +9,15 @@ const darkMode = () => {
     title = document.querySelector('h1')
     text = document.querySelector('p')
     textLink = document.querySelector('p.link')
-    box = document.querySelector('main')
+    jumbotron = document.querySelector('main')
     
     background.classList.toggle('dm-background')
     title.classList.toggle('dm-text')
     text.classList.toggle('dm-text')
     textLink.classList.toggle('dm-text')
-    box.classList.toggle('dm-box')
+    jumbotron.classList.toggle('dm-box')
+    
+
 
     if (buttonText.innerHTML == 'Dark mode')
         buttonText.innerHTML = 'Light mode'
@@ -23,5 +25,18 @@ const darkMode = () => {
         buttonText.innerHTML = 'Dark mode'
 }
 
+const toggleMenu = () => {
+    iconMenu = document.querySelector('div.icon-menu')
+    showMenu = document.querySelector('div.menu')
+    showMenu.classList.toggle('hide-menu')
+
+    if (showMenu.classList.contains('hide-menu')) {
+        iconMenu.innerHTML = `<img src="./img/menu-icon.svg" alt="menu">`;
+    } else {
+        iconMenu.innerHTML = `<img src="./img/close-menu-icon.svg" alt="menu">`
+    }
+}
+
 document.querySelector('.button-outline').addEventListener('click', alerta)
 document.querySelector('.button').addEventListener('click', darkMode)
+document.querySelector('.icon-menu').addEventListener('click', toggleMenu)
