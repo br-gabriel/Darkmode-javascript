@@ -6,13 +6,7 @@ ADICIONAR:
 - Animations
 - Caso tenha mais conteúdo na página, adiciona a personalização do scroll
 
-TAREFAS:
-- Alterar a cor do hover no darkmode, trocar o valor dentro do css
-- Ajustar o espaçamento entre os botões no responsivo
-
-
-*** Próximo passo - Botão responsivo e cor dos botões em dm
+*** Próximo passo - Animação do menu
 
 Adicionar o efeito de animação no menu
-Ao clicar no link do github, abrir uma nova aba
 Checar a responsividade no github pages e o tamanho da escala
