@@ -14,3 +14,7 @@
 .dm-background-menu {
     background: #181818 !important;
 }
+
+.dm-img-filter {
+    filter: invert(1);
+}
