@@ -35,8 +35,6 @@ const toggleMenu = () => {
     showMenu.classList.toggle('hide-menu')
     menuSvg = document.querySelector('img#menuSvg')
 
-    console.log(menuSvg)
-
     if (showMenu.classList.contains('hide-menu')) {
         if (menuSvg.classList.contains('dm-img-filter')) {
             iconMenu.innerHTML = `<img src="./img/menu-icon.svg" id="menuSvg" alt="menu" class="dm-img-filter">`;

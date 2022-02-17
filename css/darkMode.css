@@ -1,6 +1,7 @@
 .dm-background {
     background: url(/img/wallpaper-black.jpg) no-repeat center !important;
     background-size: cover !important;
+    transition: .3s;
 }
 
 .dm-text {
