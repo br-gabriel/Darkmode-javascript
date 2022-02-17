@@ -102,4 +102,8 @@ a:visited {
     transition: .2s;
 }
 
-
+@media (max-width: 768px) {
+    .button {
+        margin-bottom: 10px;
+    }
+}

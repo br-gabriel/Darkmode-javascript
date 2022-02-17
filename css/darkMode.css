@@ -9,6 +9,7 @@
 
 a:hover.dm-text {
     color: #ffffff86 !important;
+    transition: .2s;
 }
 
 .dm-box{

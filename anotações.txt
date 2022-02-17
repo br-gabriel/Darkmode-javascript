@@ -11,7 +11,8 @@ TAREFAS:
 - Ajustar o espaçamento entre os botões no responsivo
 
 
-*** Próximo passo - Ajustar o hover do menu e botão responsivo
+*** Próximo passo - Botão responsivo e cor dos botões em dm
 
 Adicionar o efeito de animação no menu
-Hover no darkmode
+Ao clicar no link do github, abrir uma nova aba
+Checar a responsividade no github pages e o tamanho da escala
