@@ -7,6 +7,10 @@
     color: white !important;
 }
 
+a:hover.dm-text {
+    color: #ffffff86 !important;
+}
+
 .dm-box{
     background-color: #55555598 !important;
 }
