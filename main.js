@@ -21,9 +21,7 @@ const darkMode = () => {
     jumbotron.classList.toggle('dm-box')
     backgroundMenu.classList.toggle('dm-background-menu')
     menuSvg.classList.toggle('dm-img-filter')
-    menuLinks.forEach(menuLinks => menuLinks.classList.toggle('dm-text'))    
-
-    console.log(menuSvg)
+    menuLinks.forEach(menuLinks => menuLinks.classList.toggle('dm-text'))
 
     if (buttonText.innerHTML == 'Dark mode')
         buttonText.innerHTML = 'Light mode'
@@ -35,11 +33,22 @@ const toggleMenu = () => {
     iconMenu = document.querySelector('div.icon-menu')
     showMenu = document.querySelector('div.menu')
     showMenu.classList.toggle('hide-menu')
+    menuSvg = document.querySelector('img#menuSvg')
+
+    console.log(menuSvg)
 
     if (showMenu.classList.contains('hide-menu')) {
-        iconMenu.innerHTML = `<img src="./img/menu-icon.svg" id="menuSvg" alt="menu">`;
+        if (menuSvg.classList.contains('dm-img-filter')) {
+            iconMenu.innerHTML = `<img src="./img/menu-icon.svg" id="menuSvg" alt="menu" class="dm-img-filter">`;
+        } else {
+            iconMenu.innerHTML = `<img src="./img/menu-icon.svg" id="menuSvg" alt="menu" class="">`;
+        }
     } else {
-        iconMenu.innerHTML = `<img src="./img/close-menu-icon.svg" id="menuSvg" alt="close menu">`
+        if (menuSvg.classList.contains('dm-img-filter')) {
+            iconMenu.innerHTML = `<img src="./img/close-menu-icon.svg" id="menuSvg" alt="menu" class="dm-img-filter">`;
+        } else {
+            iconMenu.innerHTML = `<img src="./img/close-menu-icon.svg" id="menuSvg" alt="menu" class="">`;
+        }
     }
 }
 

@@ -12,13 +12,7 @@ TAREFAS:
 - Ajustar o espaçamento entre os botões no responsivo
 
 
-*** Próximo passo - Criar o menu com o javascript
+*** Próximo passo - Ajustar o hover do menu e botão responsivo
 
-
-Reduzir um pouco o tamanho do 'X'
 Adicionar o efeito de animação no menu
-Adicionar o darkmode no menu
-Trocar a cor do icone de acordo com o tema definido
-
-Pegar o estado da classe em tempo real e aplicar dentro da transição de imagem
-Alterar somente o endereço de imagem
+Hover no darkmode
