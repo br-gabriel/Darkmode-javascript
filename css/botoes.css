@@ -66,6 +66,6 @@
 @media (max-width: 425px) {
     .button, .button-outline {
         width: 7em;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }
