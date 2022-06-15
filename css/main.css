@@ -86,17 +86,17 @@ a:visited {
     }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 425px) {
     main h1 {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
         font-weight: 900;
     }
 
     main p {
-        font-size: 1rem !important;
+        font-size: .9rem !important;
     }
 
     .link {
-        font-size: .8rem !important;
+        font-size: .7rem !important;
     }
 }
