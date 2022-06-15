@@ -26,7 +26,8 @@ body {
 }
 
 main {
-    width: 50vw;
+    width: 100%;
+    max-width: 50vw;
     background-color: #c4c4c498;
     border-radius: .5em;
     padding: 2.5em;
@@ -82,5 +83,20 @@ a:visited {
 
     .link {
         font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 525px) {
+    main h1 {
+        font-size: 2.3rem;
+        font-weight: 900;
+    }
+
+    main p {
+        font-size: 1rem !important;
+    }
+
+    .link {
+        font-size: .8rem !important;
     }
 }
